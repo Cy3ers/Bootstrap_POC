@@ -1,0 +1,15 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+:target {
+    scroll-margin-top: 71px;
+}
+
+@media(min-width: 768px) {
+    .email-input {
+        width: 50%;
+    }
+}
